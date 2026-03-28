@@ -1,0 +1,9 @@
+[
+    { "title": "Fantasy", "description": "Race your way to the top..." },
+    { "title": "Gaming", "description": "Compete in esports events..." },
+    { "title": "Esports", "description": "Join competitive leagues..." },
+    { "title": "Racing", "description": "Feel the speed..." },
+    { "title": "Strategy", "description": "Outthink your rivals..." },
+    { "title": "Simulation", "description": "Realistic racing experience..." },
+    { "title": "Arcade", "description": "Fast-paced fun action..." }
+  ]
