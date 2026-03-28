@@ -5,6 +5,7 @@ import Teams from './Teams';
 import FantasyNGaming from './FantasyNGaming/index.jsx'
 import GPPage from './GPPage/index.jsx'
 import TableGP from './TableGP/index.jsx';
+import TeamProfile from './TeamProfile/index.jsx';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <Teams/>
       <div className='flex flex-col h-10 bg-[#1C2541]'></div>
       </div>
+      <TeamProfile/>
     </div>
   )
 }
