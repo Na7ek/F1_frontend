@@ -1,0 +1,13 @@
+[
+    {"ind": 1, "GPEntered": 998, "TeamPoints": 7877.5, "HighestRaceFinish": "1 (x203)", "Podiums": 447, "HighestGridPos": "1 (x177)", "PolePos": 177, "WCC": 10},
+    {"ind": 2, "GPEntered": 333, "TeamPoints": 8339.5, "HighestRaceFinish": "1 (x126)", "Podiums": 205, "HighestGridPos": "1 (x140)", "PolePos": 139, "WCC": 8},
+    {"ind": 3, "GPEntered": 422, "TeamPoints": 8318, "HighestRaceFinish": "1 (x130)", "Podiums": 233, "HighestGridPos": "1 (x111)", "PolePos": 111, "WCC": 6},
+    {"ind": 4, "GPEntered": 1127, "TeamPoints": 10785, "HighestRaceFinish": "1 (x249)", "Podiums": 642, "HighestGridPos": "1 (x254)", "PolePos": 254, "WCC": 16},
+    {"ind": 5, "GPEntered": 855, "TeamPoints": 3773, "HighestRaceFinish": "1 (x114)", "Podiums": 245, "HighestGridPos": "1 (x128)", "PolePos": 128, "WCC": 8},
+    {"ind": 6, "GPEntered": 403, "TeamPoints": 961, "HighestRaceFinish": "1 (x2)", "Podiums": 6, "HighestGridPos": "1 (x1)", "PolePos": 1, "WCC": 0},
+    {"ind": 7, "GPEntered": 156, "TeamPoints": 863, "HighestRaceFinish": "1 (x1)", "Podiums": 12, "HighestGridPos": "1 (x1)", "PolePos": 1, "WCC": 0},
+    {"ind": 8, "GPEntered": 218, "TeamPoints": 404, "HighestRaceFinish": "4 (x2)", "Podiums": 0, "HighestGridPos": "4 (x1)", "PolePos": 1, "WCC": 0},
+    {"ind": 9, "GPEntered": 4, "TeamPoints": 2, "HighestRaceFinish": "9 (x1)", "Podiums": 0, "HighestGridPos": "9 (x1)", "PolePos": 0, "WCC": 0},
+    {"ind": 10, "GPEntered": 396, "TeamPoints": 2023, "HighestRaceFinish": "1 (x21)", "Podiums": 60, "HighestGridPos": "1 (x20)", "PolePos": 20, "WCC": 2},
+    {"ind": 11, "GPEntered": 4, "TeamPoints": 0, "HighestRaceFinish": "13 (x1)", "Podiums": 0, "HighestGridPos": "18 (x1)", "PolePos": 0, "WCC": 0}
+]
