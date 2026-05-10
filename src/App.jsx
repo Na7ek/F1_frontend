@@ -1,5 +1,4 @@
 import './App.css';
-<<<<<<< HEAD
 import { Routes, Route } from 'react-router-dom'
 import Header from './Components/Header/index.jsx';
 import Schedule from './Pages/Schedule/index.jsx';
@@ -13,16 +12,6 @@ import DriverProfile from './Pages/DriverProfile/index.jsx';
 import TeamProfile from './Pages/TeamProfile/index.jsx';
 import HomePage from './Pages/HomePage/index.jsx';
 import Results from './Pages/Results/index.jsx';
-=======
-import Header from './Header';
-import Schedule from './Schedule';
-import Teams from './Teams';
-import FantasyNGaming from './FantasyNGaming/index.jsx'
-import GPPage from './GPPage/index.jsx'
-import TableGP from './TableGP/index.jsx';
-import TeamProfile from './TeamProfile/index.jsx';
-
->>>>>>> 354818f3c664fefad8e5e2a870703dc1de6b7b66
 
 function App() {
 
@@ -45,7 +34,6 @@ function App() {
       <div className='flex flex-col h-2 bg-[#1C2541]'></div>
       <Footer/>
       </div>
-      <TeamProfile/>
     </div>
   )
 }
