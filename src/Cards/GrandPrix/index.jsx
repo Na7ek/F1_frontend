@@ -3,7 +3,7 @@ import { LiaFlagCheckeredSolid } from "react-icons/lia";
 
 const GrandPrix = ({ round, country, title, date, trackImg, flag, finished }) => {
 
-  const isFinished = finished === "Yes";
+  const isFinished = finished === true;
 
   return (
     <div className='group relative h-55 w-120 bg-black border-2 rounded-xl hover:border-[#5BC0BE] transition-all duration-300 hover:h-57 hover:w-125 cursor-pointer'>

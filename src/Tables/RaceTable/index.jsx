@@ -22,7 +22,7 @@ const RaceTable = () => {
         flag: race.flag,
         date: raceResult.date,
         driverImg: driver.driverImg,
-        driverLName: driver.lName,
+        driverName: driver.fullName,
         teamLogo: team.logo,
         teamName: team.name,
         laps: winner.laps,
@@ -64,7 +64,7 @@ const RaceTable = () => {
                 <div className="h-7 w-7"><img src={row.driverImg} className="h-20 absolute top-px w-full object-cover"/></div>
               </div>
 
-              <p className='text-white absolute left-170'>{row.driverLName}</p>
+              <p className='text-white absolute left-170'>{row.driverName}</p>
 
               <div className={`${row.color} h-8 w-8 border-2 border-white rounded-full absolute right-163 overflow-hidden`}>
                 <div className='h-7 w-7'><img src={row.teamLogo} alt={row.teamName} className='h-full w-full object-contain' /></div>
