@@ -82,35 +82,35 @@ const GPPage = () => {
                 </h2><p>{schedule.schedule.FstPractice.month}</p></div>
                 <div className='w-0.5 bg-white h-12 absolute left-25'></div>
                 <div className='w-80 h-14 absolute flex justify-start items-center gap-3 left-32'><h2 className='text-2xl'>{schedule.schedule.FstPractice.sessionName}</h2><LiaFlagCheckeredSolid className='h-6 w-6 text-[#5BC0BE]' /></div>
-                <div className='w-35 h-14 absolute flex justify-center items-center right-7'><a href={`${schedule.schedule.FstPractice.highlights}`} target='_blank'><p>Highlights</p></a></div>
+                <div className='w-35 h-14 absolute flex justify-center items-center right-7'><a href={`${schedule.schedule.FstPractice.highlights}`} target='_blank'><p className='border-b-2 border-[#5BC0BE] leading-none pb-0'>Highlights</p></a></div>
               </li>
               <div className='w-370 h-0.5 absolute left-15 bg-white'></div>
               <li className='h-22 w-400 flex justify-center gap-3 items-center relative'>
                 <div className='w-16 h-14 absolute flex justify-center flex-col items-center left-7'><h2 className='text-3xl'>{schedule.schedule.SndSession.day}</h2><p>{schedule.schedule.SndSession.month}</p></div>
                 <div className='w-0.5 bg-white h-12 absolute left-25'></div>
                 <div className='w-80 h-14 absolute flex justify-start items-center gap-3 left-32'><h2 className='text-2xl'>{schedule.schedule.SndSession.sessionName}</h2><LiaFlagCheckeredSolid className='h-6 w-6 text-[#5BC0BE]' /></div>
-                <div className='w-35 h-14 absolute flex justify-center items-center right-7'><a href={`${schedule.schedule.SndSession.highlights}`} target='_blank'><p>Highlights</p></a></div>
+                <div className='w-35 h-14 absolute flex justify-center items-center right-7'><a href={`${schedule.schedule.SndSession.highlights}`} target='_blank'><p className='border-b-2 border-[#5BC0BE] leading-none pb-0'>Highlights</p></a></div>
               </li>
               <div className='w-370 h-0.5 absolute left-15 bg-white'></div>
               <li className='h-22 w-400 flex justify-center gap-3 items-center relative'>
                 <div className='w-16 h-14 absolute flex justify-center flex-col items-center left-7'><h2 className='text-3xl'>{schedule.schedule.TrdSession.day}</h2><p>{schedule.schedule.TrdSession.month}</p></div>
                 <div className='w-0.5 bg-white h-12 absolute left-25'></div>
                 <div className='w-80 h-14 absolute flex justify-start items-center gap-3 left-32'><h2 className='text-2xl'>{schedule.schedule.TrdSession.sessionName}</h2><LiaFlagCheckeredSolid className='h-6 w-6 text-[#5BC0BE]' /></div>
-                <div className='w-35 h-14 absolute flex justify-center items-center right-7'><a href={`${schedule.schedule.TrdSession.highlights}`} target='_blank'><p>Highlights</p></a></div>
+                <div className='w-35 h-14 absolute flex justify-center items-center right-7'><a href={`${schedule.schedule.TrdSession.highlights}`} target='_blank'><p className='border-b-2 border-[#5BC0BE] leading-none pb-0'>Highlights</p></a></div>
               </li>
               <div className='w-370 h-0.5 absolute left-15 bg-white'></div>
               <li className='h-22 w-400 flex justify-center gap-3 items-center relative'>
                 <div className='w-16 h-14 absolute flex justify-center flex-col items-center left-7'><h2 className='text-3xl'>{schedule.schedule.Quali.day}</h2><p>{schedule.schedule.Quali.month}</p></div>
                 <div className='w-0.5 bg-white h-12 absolute left-25'></div>
                 <div className='w-80 h-14 absolute flex justify-start items-center gap-3 left-32'><h2 className='text-2xl'>{schedule.schedule.Quali.sessionName}</h2><LiaFlagCheckeredSolid className='h-6 w-6 text-[#5BC0BE]' /></div>
-                <div className='w-35 h-14 absolute flex justify-center items-center right-7'><a href={`${schedule.schedule.Quali.highlights}`} target='_blank'><p>Highlights</p></a></div>
+                <div className='w-35 h-14 absolute flex justify-center items-center right-7'><a href={`${schedule.schedule.Quali.highlights}`} target='_blank'><p className='border-b-2 border-[#5BC0BE] leading-none pb-0'>Highlights</p></a></div>
               </li>
               <div className='w-370 h-0.5 absolute left-15 bg-white'></div>
               <li className='h-22 w-400 flex justify-center gap-3 items-center relative'>
                 <div className='w-16 h-14 absolute flex justify-center flex-col items-center left-7'><h2 className='text-3xl'>{schedule.schedule.Race.day}</h2><p>{schedule.schedule.Race.month}</p></div>
                 <div className='w-0.5 bg-white h-12 absolute left-25'></div>
                 <div className='w-80 h-14 absolute flex justify-start items-center gap-3 left-32'><h2 className='text-2xl'>{schedule.schedule.Race.sessionName}</h2><LiaFlagCheckeredSolid className='h-6 w-6 text-[#5BC0BE]' /></div>
-                <div className='w-35 h-14 absolute flex justify-center items-center right-7'><a href={`${schedule.schedule.Race.highlights}`} target='_blank'><p>Highlights</p></a></div>
+                <div className='w-35 h-14 absolute flex justify-center items-center right-7'><a href={`${schedule.schedule.Race.highlights}`} target='_blank'><p className='border-b-2 border-[#5BC0BE] leading-none pb-0'>Highlights</p></a></div>
               </li>
             </ul>
           </div>
