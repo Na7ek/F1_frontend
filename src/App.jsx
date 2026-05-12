@@ -1,5 +1,6 @@
 import './App.css';
 import { Routes, Route } from 'react-router-dom'
+
 import Header from './Components/Header/index.jsx';
 import Schedule from './Pages/Schedule/index.jsx';
 import Teams from './Pages/Teams/index.jsx';
@@ -12,6 +13,7 @@ import DriverProfile from './Pages/DriverProfile/index.jsx';
 import TeamProfile from './Pages/TeamProfile/index.jsx';
 import HomePage from './Pages/HomePage/index.jsx';
 import Results from './Pages/Results/index.jsx';
+import ScrollToTop from './Methods/ScrollToTop/index.jsx';
 
 function App() {
 
@@ -19,6 +21,7 @@ function App() {
     <div className=' overflow-x-hidden'>
       <div className='flex flex-col gap-3 bg-[#1C2541]'>
       <Header/>
+      <ScrollToTop/>
       <Routes>
         <Route path="/" element={<HomePage/>}/>
         <Route path="/Teams" element={<Teams/>}/>
