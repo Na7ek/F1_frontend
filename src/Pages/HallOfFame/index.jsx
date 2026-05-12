@@ -13,7 +13,7 @@ const HallOfFame = () => {
     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
         {champions.map((champ, index) => (
         <a key={index} href={champ.link} target="_blank">
-            <div className="group bg-black rounded-lg overflow-hidden border-2 hover:border-white hover:scale-103 transition-all duration-300 shadow-sm w-full flex flex-col hover:shadow-lg">
+            <div className="group bg-black rounded-lg overflow-hidden border-2 hover:border-[#5BC0BE] hover:scale-103 transition-all duration-300 shadow-sm w-full flex flex-col hover:shadow-lg">
 
             <div className="p-2 grow bg-black">
                 <div className="h-52.5 w-full overflow-hidden rounded-sm">

@@ -14,7 +14,8 @@ const WCC = () => {
       name: team?.name,
       logo: team?.logo,
       points: stats?.Points,
-      color: team?.colorD
+      color: team?.colorD,
+      ind: team?.ind
     };
   }).sort((a, b) => a.pos - b.pos);
 
@@ -36,10 +37,10 @@ const WCC = () => {
               <p className="text-white absolute left-10">{team.pos}</p>
 
               <div className={`h-8 w-8 rounded-full flex justify-center items-center absolute left-117 overflow-hidden border-2 border-white ${team.color}`}>
-                <div className="h-6 w-6"><img src={team.logo} alt={team.name} className="h-full w-full object-contain" /></div>
+                <div className="h-6 w-6"><a href={`teams/${team.ind}`}><img src={team.logo} alt={team.name} className="h-full w-full object-contain" /></a></div>
               </div>
 
-              <p className="text-white absolute left-127">{team.name}</p>
+              <p className="text-white absolute left-127"><a href={`teams/${team.ind}`}>{team.name}</a></p>
               <p className="text-white absolute right-12">{team.points}</p>
 
               {index !== table.length - 1 && (

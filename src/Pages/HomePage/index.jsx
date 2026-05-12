@@ -207,36 +207,6 @@ const HomePage = () => {
             </div>
           </div>
 
-
-          {/* <div className='flex flex-col gap-6 bg-[#0B132B] rounded-3xl p-8 border border-[#5BC0BE]/20 shadow-2xl'>
-          <div className='flex items-center gap-2'>
-            <div className='h-12 w-2 bg-[#5BC0BE]'></div>
-            <h2 className='text-white text-4xl'>How do F1 cars work?</h2>
-          </div> */}
-
-          {/* <div className='grid xl:grid-cols-2 gap-8 items-center'>
-            <p className='text-white text-lg w-full leading-9'>
-              Thousands of parts are involved in creating some of the fastest and most advanced racing cars on the planet – spanning detailed bodywork, suspension elements, turbo-hybrid power units, eight-speed paddle shift gearboxes, 18-inch tyres and much, much more.
-              When the engine powers it forward, an F1 car essentially acts as an aeroplane flipped upside down, with front and rear wings – and everything in between – pushing the car down onto the track and giving it incredible levels of grip through corners.
-              That said, for 2026 F1's technical regulations have been completely revamped in the biggest shake up the sport has seen for more than a decade. The previous 'ground effect' aerodynamic concept (that lasted from 2022-2025) has completely changed, with cars now shorter, narrower, lighter and nimbler.
-              The previous era's cars had several carefully designed tunnels underneath the car's floor, sucking the car to the track surface, but in 2026 the cars will have flatter floors instead.
-              However, the most significant change regarding the aerodynamics is the introduction of Active Aero – the cars can adjust the angle of both their front and rear wing elements depending on where they are on track. In the corners the flaps stay shut, to maintain grip, and on the designated straights, the drivers can activate low-drag mode, which opens the flaps and flattens the wings to reduce drag and boost their top speed.
-              But that's not all that's changing, as the power units are also getting a significant revamp. While the core is still a 1.6-litre V6 turbo hybrid, the power balance has shifted significantly – for 2026 we've got roughly a 50-50 power split between petrol and electric.
-              This makes the power units more road relevant – and more attractive to existing manufacturers Ferrari and Mercedes, newcomers Red Bull Powertrains in partnership with Ford, General Motors (from 2029) and Audi, plus returning suppliers Honda.
-            </p>
-
-            <div className='overflow-hidden rounded-3xl'>
-              <img
-                className='w-full h-full object-cover hover:scale-105 transition-all duration-500'
-                src="https://media.formula1.com/image/upload/c_lfill,w_3392/q_auto/v1740000001/fom-website/2026%20regulations/2026_Explainer_FIA_Front_3_4_1920x1080.webp"
-                alt=""
-              />
-            </div>
-          </div> */}
-          {/* </div> */}
-
-
-
           <div className='flex flex-col gap-10'>
             <h1 className='text-white text-6xl'>EXPLORE MORE</h1>
             <div className='flex gap-6 items-center'>
@@ -304,7 +274,7 @@ const HomePage = () => {
                   className="h-85 w-98 group rounded-xl relative overflow-hidden shadow-xl cursor-pointer"
                   style={{
                     backgroundImage:
-                      "url(https://media.formula1.com/image/upload/c_lfill,w_3392/q_auto/v1740000001/content/dam/fom-website/Upgrade/F1-Fantasy-2021-Website-16x9-V2.webp)",
+                      "url(https://i.pinimg.com/1200x/f4/5a/8d/f45a8df312f617a4446f938ce84d16d7.jpg)",
                     backgroundSize: "cover",
                     backgroundPosition: "center",
                   }}
@@ -341,9 +311,9 @@ const HomePage = () => {
                   className="h-85 w-196 group rounded-xl relative overflow-hidden shadow-xl cursor-pointer"
                   style={{
                     backgroundImage:
-                      "url(https://i.pinimg.com/1200x/f6/9b/a4/f69ba479fe62ae85d93acb243f57ee23.jpg)",
+                      "url(https://i.pinimg.com/1200x/17/a4/45/17a44573056391c31184327b95310223.jpg)",
                     backgroundSize: "cover",
-                    backgroundPosition: "center",
+                    backgroundPosition: "bottom",
                   }}
                 >
                   <div className="absolute inset-0 transition-transform duration-500 group-hover:scale-110"></div>

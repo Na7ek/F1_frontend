@@ -27,7 +27,9 @@ const RaceTable = () => {
         teamName: team.name,
         laps: winner.laps,
         time: winner.time,
-        color: team.colorD
+        color: team.colorD,
+        teamNum: team.ind,
+        driverNum: driver.num
       }
     })
 
@@ -61,16 +63,16 @@ const RaceTable = () => {
               <p className='text-white absolute left-90'>{row.date}</p>
 
               <div className={`h-8 w-8 rounded-full absolute left-160 flex justify-center items-center overflow-hidden border-2 border-white ${row.color}`}>
-                <div className="h-7 w-7"><img src={row.driverImg} className="h-20 absolute top-px w-full object-cover"/></div>
+                <div className="h-7 w-7"><a href={`/Drivers/${row.driverNum}`}><img src={row.driverImg} className="h-20 absolute top-px w-full object-cover"/></a></div>
               </div>
 
-              <p className='text-white absolute left-170'>{row.driverName}</p>
+              <p className='text-white absolute left-170'><a href={`/Drivers/${row.driverNum}`}>{row.driverName}</a></p>
 
-              <div className={`${row.color} h-8 w-8 border-2 border-white rounded-full absolute right-163 overflow-hidden`}>
-                <div className='h-7 w-7'><img src={row.teamLogo} alt={row.teamName} className='h-full w-full object-contain' /></div>
+              <div className={`${row.color} h-8 w-8 border-2 border-white flex justify-center items-center rounded-full absolute right-163 overflow-hidden`}>
+                <div className='h-6 w-6'><a href={`/Teams/${row.teamNum}`}><img src={row.teamLogo} alt={row.teamName} className='h-full w-full object-contain' /></a></div>
               </div>
 
-              <p className='text-white absolute right-136'>{row.teamName}</p>
+              <p className='text-white absolute left-237'><a href={`/Teams/${row.teamNum}`}>{row.teamName}</a></p>
 
               <p className='text-white absolute right-92'>{row.laps}</p>
 

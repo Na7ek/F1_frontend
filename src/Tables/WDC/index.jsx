@@ -20,7 +20,9 @@ const WDC = () => {
       teamLogo: team?.logo,
       points: stats?.Points26,
       color: team?.colorD,
-      picture: driver?.driverImg
+      picture: driver?.driverImg,
+      num: driver?.num,
+      ind: team?.ind
     };
   }).sort((a, b) => a.pos - b.pos);
 
@@ -44,19 +46,19 @@ const WDC = () => {
               <p className="text-white absolute left-10">{d.pos}</p>
 
               <div className={`h-8 w-8 rounded-full absolute left-50 flex justify-center items-center overflow-hidden border-2 border-white ${d.color}`}>
-                <div className="h-7 w-7"><img src={d.picture} className="h-20 absolute top-px w-full object-cover"/></div>
+                <div className="h-7 w-7"><a href={`drivers/${d.num}`}><img src={d.picture} className="h-20 absolute top-px w-full object-cover"/></a></div>
               </div>
 
-              <p className="text-white absolute left-60">{d.name}</p>
+              <p className="text-white absolute left-60"><a href={`drivers/${d.num}`}>{d.name}</a></p>
 
               <div className="h-8 w-8 rounded-full absolute left-192 overflow-hidden border-2 border-white">
-                <img src={d.flag} className="h-full w-full object-contain" />
+              <img src={d.flag} className="h-full w-full object-contain" />
               </div>
 
               <div className={`h-8 w-8 rounded-full absolute left-272 overflow-hidden flex justify-center items-center border-2 border-white ${d.color}`}>
-                <div className="h-6 w-6"><img src={d.teamLogo} alt="" className="h-full w-full object-contain" /></div>
+              <div className="h-6 w-6"><a href={`teams/${d.ind}`}><img src={d.teamLogo} alt="" className="h-full w-full object-contain" /></a></div>
               </div> 
-              <p className="text-white absolute left-283">{d.teamName}</p>
+              <p className="text-white absolute left-283"><a href={`teams/${d.ind}`}>{d.teamName}</a></p>
               <p className="text-white absolute right-12">{d.points}</p>
 
               {index !== table.length - 1 && (
