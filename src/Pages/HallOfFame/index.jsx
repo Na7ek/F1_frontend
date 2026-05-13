@@ -27,9 +27,9 @@ const HallOfFame = () => {
 
             <div className="p-4 pt-1 bg-black">
                 <div className="flex justify-between items-center">
-                <h3 className="text-lg font-bold text-white tracking-tight">
+                <h2 className="text-xl font-bold text-white tracking-tight">
                     {champ.name}
-                </h3>
+                </h2>
                 <span className="text-lg font-medium text-gray-400">
                     x{champ.titles}
                 </span>
